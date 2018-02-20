@@ -9,7 +9,7 @@ header * {
 }
 
 .block .content {
-  width: 50vw;
+  width: 70vw;
   margin: auto;
   height: 100%;
   vertical-align: middle;
@@ -32,12 +32,25 @@ header * {
   transform: translateY(-50%);
 }
 
+#marketing img{
+  width: 100%;
+}
+
+#grow {
+  text-align: center;
+}
+
+/* background Colors */
 .bg-grey{
   background: #f2f5f8 url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg) 0 0 no-repeat
 }
 
 .bg-orange{
   background: orange;
+}
+
+[data-background="gradient-green"]{
+      background-image: linear-gradient(0deg,#00a4bd,#00bda5);
 }
 
 .clear{
