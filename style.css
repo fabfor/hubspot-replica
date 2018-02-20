@@ -5,7 +5,7 @@ header * {
 }
 
 .block {
-  height: 400px;
+  height: 600px;
 }
 
 .block .content {
@@ -14,8 +14,16 @@ header * {
   height: 100%;
 }
 
+.block .content .left, .block .content .right{
+  float: left;
+  width: 50%;
+  height: 300px;
+  position: relative;
+  top: calc((100% - 300px) / 2);
+}
+
 .bg-grey{
-  background: grey;
+  background: #f2f5f8 url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg) 0 0 no-repeat
 }
 
 .bg-orange{
