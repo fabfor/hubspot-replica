@@ -1,7 +1,30 @@
 header * {
+    background-color: lightgrey;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70px;
+    line-height: 70px;
+    z-index: 5;
+}
+header nav {
   width: 50vw;
   margin: auto;
   height: 70px;
+  line-height: 70px;
+}
+.contact{
+  position: relative;
+  width: 50vw;
+  margin: auto;
+}
+.contact *{
+  display: inline-block;
+}
+.rightcont{
+  position: absolute;
+  right: 0;
+}
 }
 /* COMMON */
 .block {
